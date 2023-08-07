@@ -1,0 +1,159 @@
+.myform {
+  width: 70%;
+
+  text-align: center;
+  margin: auto;
+}
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.image {
+  height: 30px;
+  width: 30px;
+}
+.mybtn {
+  color: blue;
+  box-shadow: 5px;
+
+  box-shadow: 5px 10px 8px #888888;
+  background-color: rgb(228, 245, 245);
+}
+.mybtn:hover {
+  background-color: rgb(91, 206, 238);
+}
+.file {
+  width: 150px;
+
+  font-size: 160%;
+}
+.container {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.01;
+}
+.overlay {
+  z-index: 9;
+  opacity: 1;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 155px;
+  background-color: red;
+}
+.c {
+  background-color: pink;
+  display: block;
+}
+.c button {
+  display: block;
+}
+.mybtn2 {
+  border-radius: 9px;
+  border: none;
+  background-color: rgb(238, 13, 208);
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  padding-top: 0px;
+  margin-top: 0;
+  padding-bottom: 3px;
+  transition: 0.3s;
+}
+.mybtn2:hover {
+  background-color: red;
+  transition: ease 9ms;
+}
+.bottomborder {
+  border-bottom: 1px solid rgb(238, 13, 208);
+  color: blue;
+}
+.lab {
+  color: blue;
+}
+
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.popup {
+  background-color: #3da1b3;
+  width: 420px;
+  padding: 30px 40px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  display: none;
+  text-align: center;
+}
+
+.popup h2 {
+  margin-top: -20px;
+}
+.popup p {
+  font-size: 14px;
+  text-align: justify;
+  margin: 20px 0;
+  line-height: 25px;
+}
+a {
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #0f72e5;
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 0;
+}
+#dis1 {
+  margin: auto;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.preview-image {
+  max-width: 100%;
+  max-height: 300px;
+  margin-top: 10px;
+  width:239px;
+  height:291px;
+  display: none;
+}
